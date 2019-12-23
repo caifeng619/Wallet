@@ -32,7 +32,7 @@
 
 @media screen and (max-width:786px){
   nav{
-    padding: 1rem;
+    padding:0.2rem 0.5rem;
     .nav-links{
       position: fixed;
       top:0;
@@ -42,14 +42,14 @@
       height: 100%;
       width:100%;
       flex-direction: column;
-      clip-path: circle(100px at 90% -10%);
-      -webkit-clip-path:circle(100px at 90% -10%);
+      clip-path: circle(100px at 90% -11%);
+      -webkit-clip-path:circle(100px at 90% -11%);
       transition: all 1s ease-out;
       pointer-events: none;
     }
     .open{
-      clip-path: circle(1000px at 90% -10%);
-      -webkit-clip-path:circle(1000px at 90% -10%);
+      clip-path: circle(1000px at 90% -11%);
+      -webkit-clip-path:circle(1000px at 90% -11%);
       pointer-events: all;
     }
     .hamburger{
