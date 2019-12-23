@@ -1,0 +1,35 @@
+/* styles for footer */
+footer{
+    margin: 3rem 2rem;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-gap:2rem;
+
+    .omoss, .contact, .icons{
+      vertical-align: top;
+    }
+    .contact p{
+      margin-bottom: 2.3rem;
+    }
+    .icons{
+      display: flex;
+      flex-direction: column;
+      font-size: 1rem;
+      a{
+        margin-bottom: .5rem;
+        padding-top: .3rem;
+        background: $maincolor;
+        color:$textcolor;
+        text-align: center;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        border-radius: 20px;
+      }
+    }
+  }
+  .copyright{
+    text-align: center;
+  }
+  
+  
